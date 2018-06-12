@@ -1,0 +1,142 @@
+---- hcrc Matches (141 in 7 files) ----
+Main.c (src):CRC_HandleTypeDef hcrc;
+Main.c (src):  hcrc.Instance = CRC;
+Main.c (src):  hcrc.Init.DefaultPolynomialUse = DEFAULT_POLYNOMIAL_DISABLE;
+Main.c (src):  hcrc.Init.DefaultInitValueUse = DEFAULT_INIT_VALUE_DISABLE;
+Main.c (src):  hcrc.Init.GeneratingPolynomial = 4129;
+Main.c (src):  hcrc.Init.CRCLength = CRC_POLYLENGTH_16B;
+Main.c (src):  hcrc.Init.InitValue = 0;
+Main.c (src):  hcrc.Init.InputDataInversionMode = CRC_INPUTDATA_INVERSION_NONE;
+Main.c (src):  hcrc.Init.OutputDataInversionMode = CRC_OUTPUTDATA_INVERSION_DISABLE;
+Main.c (src):  hcrc.InputDataFormat = CRC_INPUTDATA_FORMAT_BYTES;
+Main.c (src):  if (HAL_CRC_Init(&hcrc) != HAL_OK)
+Main.c (src):  if (HAL_CRCEx_Init(&hcrc) != HAL_OK)
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):static uint32_t CRC_Handle_8(CRC_HandleTypeDef *hcrc, uint8_t pBuffer[], uint32_t BufferLength);
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):static uint32_t CRC_Handle_16(CRC_HandleTypeDef *hcrc, uint16_t pBuffer[], uint32_t BufferLength);
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  * @param  hcrc: CRC handle
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):HAL_StatusTypeDef HAL_CRC_Init(CRC_HandleTypeDef *hcrc)
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  if(hcrc == NULL)
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  assert_param(IS_CRC_ALL_INSTANCE(hcrc->Instance));
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  if(hcrc->State == HAL_CRC_STATE_RESET)
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):    hcrc->Lock = HAL_UNLOCKED;
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):    HAL_CRC_MspInit(hcrc);
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  hcrc->State = HAL_CRC_STATE_BUSY; 
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):     polynomial according to hcrc->Init parameters.
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  if (HAL_CRCEx_Init(hcrc) != HAL_OK)
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  assert_param(IS_DEFAULT_INIT_VALUE(hcrc->Init.DefaultInitValueUse));
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  if (hcrc->Init.DefaultInitValueUse == DEFAULT_INIT_VALUE_ENABLE)
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):    WRITE_REG(hcrc->Instance->INIT, DEFAULT_CRC_INITVALUE);  
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):    WRITE_REG(hcrc->Instance->INIT, hcrc->Init.InitValue);
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  assert_param(IS_CRC_INPUTDATA_INVERSION_MODE(hcrc->Init.InputDataInversionMode)); 
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  MODIFY_REG(hcrc->Instance->CR, CRC_CR_REV_IN, hcrc->Init.InputDataInversionMode); 
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  assert_param(IS_CRC_OUTPUTDATA_INVERSION_MODE(hcrc->Init.OutputDataInversionMode)); 
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  MODIFY_REG(hcrc->Instance->CR, CRC_CR_REV_OUT, hcrc->Init.OutputDataInversionMode);  
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  assert_param(IS_CRC_INPUTDATA_FORMAT(hcrc->InputDataFormat));
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  hcrc->State = HAL_CRC_STATE_READY;
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  * @param  hcrc: CRC handle
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):HAL_StatusTypeDef HAL_CRC_DeInit(CRC_HandleTypeDef *hcrc)
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  if(hcrc == NULL)
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  assert_param(IS_CRC_ALL_INSTANCE(hcrc->Instance));
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  if(hcrc->State == HAL_CRC_STATE_BUSY)
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  hcrc->State = HAL_CRC_STATE_BUSY;
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  __HAL_CRC_DR_RESET(hcrc);
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  CLEAR_BIT(hcrc->Instance->IDR, CRC_IDR_IDR) ;
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  HAL_CRC_MspDeInit(hcrc);
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  hcrc->State = HAL_CRC_STATE_RESET;
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  __HAL_UNLOCK(hcrc);
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  * @param  hcrc: CRC handle
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):__weak void HAL_CRC_MspInit(CRC_HandleTypeDef *hcrc)
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  UNUSED(hcrc);
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  * @param  hcrc: CRC handle
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):__weak void HAL_CRC_MspDeInit(CRC_HandleTypeDef *hcrc)
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  UNUSED(hcrc);
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  * @param  hcrc: CRC handle
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  *         provided by hcrc->InputDataFormat.  
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  *        handle field hcrc->InputDataFormat.
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):uint32_t HAL_CRC_Accumulate(CRC_HandleTypeDef *hcrc, uint32_t pBuffer[], uint32_t BufferLength)
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  uint32_t temp = 0U;  /* CRC output (read from hcrc->Instance->DR register) */
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  __HAL_LOCK(hcrc); 
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  hcrc->State = HAL_CRC_STATE_BUSY;
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  switch (hcrc->InputDataFormat)
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):        hcrc->Instance->DR = pBuffer[index];
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):      temp = hcrc->Instance->DR;
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):      temp = CRC_Handle_8(hcrc, (uint8_t*)pBuffer, BufferLength);
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):      temp = CRC_Handle_16(hcrc, (uint16_t*)pBuffer, BufferLength);
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  hcrc->State = HAL_CRC_STATE_READY; 
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  __HAL_UNLOCK(hcrc);
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  *         starting with hcrc->Instance->INIT as initialization value.
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  * @param  hcrc: CRC handle
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  *         provided by hcrc->InputDataFormat.  
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  *        handle field hcrc->InputDataFormat. 
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):uint32_t HAL_CRC_Calculate(CRC_HandleTypeDef *hcrc, uint32_t pBuffer[], uint32_t BufferLength)
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  uint32_t temp = 0U;  /* CRC output (read from hcrc->Instance->DR register) */
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  __HAL_LOCK(hcrc); 
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  hcrc->State = HAL_CRC_STATE_BUSY;
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  /* Reset CRC Calculation Unit (hcrc->Instance->INIT is 
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  *  written in hcrc->Instance->DR) */
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  __HAL_CRC_DR_RESET(hcrc);
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  switch (hcrc->InputDataFormat)
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):        hcrc->Instance->DR = pBuffer[index];
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):      temp = hcrc->Instance->DR;
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):      temp = CRC_Handle_8(hcrc, (uint8_t*)pBuffer, BufferLength);
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):      temp = CRC_Handle_16(hcrc, (uint16_t*)pBuffer, BufferLength);
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  hcrc->State = HAL_CRC_STATE_READY; 
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  __HAL_UNLOCK(hcrc);
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  * @param  hcrc: CRC handle
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):HAL_CRC_StateTypeDef HAL_CRC_GetState(CRC_HandleTypeDef *hcrc)
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  return hcrc->State;
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  * @param  hcrc: CRC handle
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):static uint32_t CRC_Handle_8(CRC_HandleTypeDef *hcrc, uint8_t pBuffer[], uint32_t BufferLength)
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):      hcrc->Instance->DR = ((uint32_t)pBuffer[4U*i]<<24U) | ((uint32_t)pBuffer[4U*i+1]<<16U) | ((uint32_t)pBuffer[4U*i+2]<<8U) | (uint32_t)pBuffer[4U*i+3];      
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):       *(uint8_t volatile*) (&hcrc->Instance->DR) = pBuffer[4*i];
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):       *(uint16_t volatile*) (&hcrc->Instance->DR) = ((uint32_t)pBuffer[4*i]<<8) | (uint32_t)pBuffer[4*i+1];
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):       *(uint16_t volatile*) (&hcrc->Instance->DR) = ((uint32_t)pBuffer[4*i]<<8) | (uint32_t)pBuffer[4*i+1];
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):       *(uint8_t volatile*) (&hcrc->Instance->DR) = pBuffer[4*i+2];       
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  return hcrc->Instance->DR;
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  * @param  hcrc: CRC handle
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):static uint32_t CRC_Handle_16(CRC_HandleTypeDef *hcrc, uint16_t pBuffer[], uint32_t BufferLength)
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):    hcrc->Instance->DR = ((uint32_t)pBuffer[2U*i]<<16U) | (uint32_t)pBuffer[2U*i+1];     
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):       *(uint16_t volatile*) (&hcrc->Instance->DR) = pBuffer[2*i]; 
+Stm32f0xx_hal_crc.c (drivers\stm32f0xx_hal_driver\src):  return hcrc->Instance->DR;
+Stm32f0xx_hal_crc.h (drivers\stm32f0xx_hal_driver\inc):HAL_StatusTypeDef HAL_CRC_Init(CRC_HandleTypeDef *hcrc);
+Stm32f0xx_hal_crc.h (drivers\stm32f0xx_hal_driver\inc):HAL_StatusTypeDef HAL_CRC_DeInit (CRC_HandleTypeDef *hcrc);
+Stm32f0xx_hal_crc.h (drivers\stm32f0xx_hal_driver\inc):void HAL_CRC_MspInit(CRC_HandleTypeDef *hcrc);
+Stm32f0xx_hal_crc.h (drivers\stm32f0xx_hal_driver\inc):void HAL_CRC_MspDeInit(CRC_HandleTypeDef *hcrc);
+Stm32f0xx_hal_crc.h (drivers\stm32f0xx_hal_driver\inc):uint32_t HAL_CRC_Accumulate(CRC_HandleTypeDef *hcrc, uint32_t pBuffer[], uint32_t BufferLength);
+Stm32f0xx_hal_crc.h (drivers\stm32f0xx_hal_driver\inc):uint32_t HAL_CRC_Calculate(CRC_HandleTypeDef *hcrc, uint32_t pBuffer[], uint32_t BufferLength);
+Stm32f0xx_hal_crc.h (drivers\stm32f0xx_hal_driver\inc):HAL_CRC_StateTypeDef HAL_CRC_GetState(CRC_HandleTypeDef *hcrc);
+Stm32f0xx_hal_crc_ex.c (drivers\stm32f0xx_hal_driver\src):          polynomial according to hcrc->Init.DefaultPolynomialUse parameter.
+Stm32f0xx_hal_crc_ex.c (drivers\stm32f0xx_hal_driver\src):  * @param  hcrc: CRC handle             
+Stm32f0xx_hal_crc_ex.c (drivers\stm32f0xx_hal_driver\src):HAL_StatusTypeDef HAL_CRCEx_Init(CRC_HandleTypeDef *hcrc)
+Stm32f0xx_hal_crc_ex.c (drivers\stm32f0xx_hal_driver\src):  assert_param(IS_DEFAULT_POLYNOMIAL(hcrc->Init.DefaultPolynomialUse)); 
+Stm32f0xx_hal_crc_ex.c (drivers\stm32f0xx_hal_driver\src):  if (hcrc->Init.DefaultPolynomialUse == DEFAULT_POLYNOMIAL_ENABLE)
+Stm32f0xx_hal_crc_ex.c (drivers\stm32f0xx_hal_driver\src):    WRITE_REG(hcrc->Instance->POL, DEFAULT_CRC32_POLY);  
+Stm32f0xx_hal_crc_ex.c (drivers\stm32f0xx_hal_driver\src):    MODIFY_REG(hcrc->Instance->CR, CRC_CR_POLYSIZE, CRC_POLYLENGTH_32B);
+Stm32f0xx_hal_crc_ex.c (drivers\stm32f0xx_hal_driver\src):    if (HAL_CRCEx_Polynomial_Set(hcrc, hcrc->Init.GeneratingPolynomial, hcrc->Init.CRCLength) != HAL_OK)
+Stm32f0xx_hal_crc_ex.c (drivers\stm32f0xx_hal_driver\src):  * @param  hcrc: CRC handle
+Stm32f0xx_hal_crc_ex.c (drivers\stm32f0xx_hal_driver\src):HAL_StatusTypeDef HAL_CRCEx_Input_Data_Reverse(CRC_HandleTypeDef *hcrc, uint32_t InputReverseMode)
+Stm32f0xx_hal_crc_ex.c (drivers\stm32f0xx_hal_driver\src):  hcrc->State = HAL_CRC_STATE_BUSY;
+Stm32f0xx_hal_crc_ex.c (drivers\stm32f0xx_hal_driver\src):  MODIFY_REG(hcrc->Instance->CR, CRC_CR_REV_IN, InputReverseMode);    
+Stm32f0xx_hal_crc_ex.c (drivers\stm32f0xx_hal_driver\src):  hcrc->State = HAL_CRC_STATE_READY;
+Stm32f0xx_hal_crc_ex.c (drivers\stm32f0xx_hal_driver\src):  * @param  hcrc: CRC handle
+Stm32f0xx_hal_crc_ex.c (drivers\stm32f0xx_hal_driver\src):HAL_StatusTypeDef HAL_CRCEx_Output_Data_Reverse(CRC_HandleTypeDef *hcrc, uint32_t OutputReverseMode)
+Stm32f0xx_hal_crc_ex.c (drivers\stm32f0xx_hal_driver\src):  hcrc->State = HAL_CRC_STATE_BUSY;
+Stm32f0xx_hal_crc_ex.c (drivers\stm32f0xx_hal_driver\src):  MODIFY_REG(hcrc->Instance->CR, CRC_CR_REV_OUT, OutputReverseMode); 
+Stm32f0xx_hal_crc_ex.c (drivers\stm32f0xx_hal_driver\src):  hcrc->State = HAL_CRC_STATE_READY;
+Stm32f0xx_hal_crc_ex.c (drivers\stm32f0xx_hal_driver\src):  * @param  hcrc: CRC handle
+Stm32f0xx_hal_crc_ex.c (drivers\stm32f0xx_hal_driver\src):HAL_StatusTypeDef HAL_CRCEx_Polynomial_Set(CRC_HandleTypeDef *hcrc, uint32_t Pol, uint32_t PolyLength)
+Stm32f0xx_hal_crc_ex.c (drivers\stm32f0xx_hal_driver\src):  WRITE_REG(hcrc->Instance->POL, Pol);
+Stm32f0xx_hal_crc_ex.c (drivers\stm32f0xx_hal_driver\src):  MODIFY_REG(hcrc->Instance->CR, CRC_CR_POLYSIZE, PolyLength);  
+Stm32f0xx_hal_crc_ex.h (drivers\stm32f0xx_hal_driver\inc):HAL_StatusTypeDef HAL_CRCEx_Init(CRC_HandleTypeDef *hcrc);
+Stm32f0xx_hal_crc_ex.h (drivers\stm32f0xx_hal_driver\inc):HAL_StatusTypeDef HAL_CRCEx_Input_Data_Reverse(CRC_HandleTypeDef *hcrc, uint32_t InputReverseMode);
+Stm32f0xx_hal_crc_ex.h (drivers\stm32f0xx_hal_driver\inc):HAL_StatusTypeDef HAL_CRCEx_Output_Data_Reverse(CRC_HandleTypeDef *hcrc, uint32_t OutputReverseMode);
+Stm32f0xx_hal_crc_ex.h (drivers\stm32f0xx_hal_driver\inc):HAL_StatusTypeDef HAL_CRCEx_Polynomial_Set(CRC_HandleTypeDef *hcrc, uint32_t Pol, uint32_t PolyLength);
+Stm32f0xx_hal_msp.c (src):void HAL_CRC_MspInit(CRC_HandleTypeDef* hcrc)
+Stm32f0xx_hal_msp.c (src):  if(hcrc->Instance==CRC)
+Stm32f0xx_hal_msp.c (src):void HAL_CRC_MspDeInit(CRC_HandleTypeDef* hcrc)
+Stm32f0xx_hal_msp.c (src):  if(hcrc->Instance==CRC)
+Ymodem.c (src):extern CRC_HandleTypeDef hcrc;
+Ymodem.c (src):          if (HAL_CRC_Calculate(&hcrc, (uint32_t*)&p_data[PACKET_DATA_INDEX], packet_size) != crc )
+Ymodem.c (src):    temp_crc = HAL_CRC_Calculate(&hcrc, (uint32_t*)&aPacketData[PACKET_DATA_INDEX], PACKET_SIZE);
+Ymodem.c (src):      temp_crc = HAL_CRC_Calculate(&hcrc, (uint32_t*)&aPacketData[PACKET_DATA_INDEX], pkt_size);
+Ymodem.c (src):    temp_crc = HAL_CRC_Calculate(&hcrc, (uint32_t*)&aPacketData[PACKET_DATA_INDEX], PACKET_SIZE);

@@ -1,0 +1,24 @@
+--cpu Cortex-M0
+"iap_f091_app\main.o"
+"iap_f091_app\stm32f0xx_it.o"
+"iap_f091_app\stm32f0xx_hal_msp.o"
+"iap_f091_app\stm32f0xx_hal_rcc_ex.o"
+"iap_f091_app\stm32f0xx_hal_i2c.o"
+"iap_f091_app\stm32f0xx_hal_tim_ex.o"
+"iap_f091_app\stm32f0xx_hal_rcc.o"
+"iap_f091_app\stm32f0xx_hal_flash_ex.o"
+"iap_f091_app\stm32f0xx_hal.o"
+"iap_f091_app\stm32f0xx_hal_flash.o"
+"iap_f091_app\stm32f0xx_hal_gpio.o"
+"iap_f091_app\stm32f0xx_hal_pwr.o"
+"iap_f091_app\stm32f0xx_hal_tim.o"
+"iap_f091_app\stm32f0xx_hal_cortex.o"
+"iap_f091_app\stm32f0xx_hal_dma.o"
+"iap_f091_app\stm32f0xx_hal_pwr_ex.o"
+"iap_f091_app\stm32f0xx_hal_i2c_ex.o"
+"iap_f091_app\startup_stm32f091xc.o"
+"iap_f091_app\system_stm32f0xx.o"
+--library_type=microlib --strict --scatter "IAP_F091_App\IAP_F091_App.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "IAP_F091_App.map" -o IAP_F091_App\IAP_F091_App.axf

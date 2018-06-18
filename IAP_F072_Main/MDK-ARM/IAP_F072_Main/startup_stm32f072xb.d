@@ -1,1 +1,0 @@
-iap_f072_main\startup_stm32f072xb.o: startup_stm32f072xb.s

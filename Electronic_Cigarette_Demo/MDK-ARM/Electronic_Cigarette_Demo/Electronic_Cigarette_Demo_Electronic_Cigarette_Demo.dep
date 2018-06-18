@@ -1,0 +1,1055 @@
+Dependencies for Project 'Electronic_Cigarette_Demo', Target 'Electronic_Cigarette_Demo': (DO NOT MODIFY !)
+F (../Src/system_stm32f0xx.c)(0x59A9373E)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --C99-I.\RTE\_Electronic_Cigarette_Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F072xB -DUSE_HAL_DRIVER -DSTM32F072xB-o electronic_cigarette_demo\system_stm32f0xx.o --omf_browse electronic_cigarette_demo\system_stm32f0xx.crf --depend electronic_cigarette_demo\system_stm32f0xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x59A9373D)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f072xb.h)(0x59A9373D)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x59A9373F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x59A9373D)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x59A93740)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59FC0ADF)
+I (../Inc/main.h)(0x59FD5CD3)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x59A93740)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x59A93740)
+F (startup_stm32f072xb.s)(0x5A0002F6)(--cpu Cortex-M0 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Electronic_Cigarette_Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include--pd "__UVISION_VERSION SETA 524" --pd "_RTE_ SETA 1" --pd "STM32F072xB SETA 1"--list startup_stm32f072xb.lst --xref -o electronic_cigarette_demo\startup_stm32f072xb.o --depend electronic_cigarette_demo\startup_stm32f072xb.d)
+F (../Src/main.c)(0x5B07B8FD)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --C99-I.\RTE\_Electronic_Cigarette_Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F072xB -DUSE_HAL_DRIVER -DSTM32F072xB-o electronic_cigarette_demo\main.o --omf_browse electronic_cigarette_demo\main.crf --depend electronic_cigarette_demo\main.d)
+I (../Inc/main.h)(0x59FD5CD3)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x59A93740)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59FC0ADF)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x59A93740)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x59A9373D)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f072xb.h)(0x59A9373D)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x59A9373F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x59A9373D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x59A93740)
+I (../Src/SysTickTaskManager.h)(0x597C68B6)
+I (../Src/message.h)(0x5953650C)
+I (../Src/User.h)(0x5A001A21)
+F (../Src/stm32f0xx_hal_msp.c)(0x59FC0ADF)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --C99-I.\RTE\_Electronic_Cigarette_Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F072xB -DUSE_HAL_DRIVER -DSTM32F072xB-o electronic_cigarette_demo\stm32f0xx_hal_msp.o --omf_browse electronic_cigarette_demo\stm32f0xx_hal_msp.crf --depend electronic_cigarette_demo\stm32f0xx_hal_msp.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x59A93740)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59FC0ADF)
+I (../Inc/main.h)(0x59FD5CD3)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x59A93740)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x59A9373D)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f072xb.h)(0x59A9373D)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x59A9373F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x59A9373D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x59A93740)
+F (../Src/stm32f0xx_it.c)(0x59FC0ADF)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --C99-I.\RTE\_Electronic_Cigarette_Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F072xB -DUSE_HAL_DRIVER -DSTM32F072xB-o electronic_cigarette_demo\stm32f0xx_it.o --omf_browse electronic_cigarette_demo\stm32f0xx_it.crf --depend electronic_cigarette_demo\stm32f0xx_it.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x59A93740)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59FC0ADF)
+I (../Inc/main.h)(0x59FD5CD3)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x59A93740)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x59A9373D)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f072xb.h)(0x59A9373D)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x59A9373F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x59A9373D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x59A93740)
+I (../Inc/stm32f0xx_it.h)(0x59FC0ADF)
+F (..\Src\message.c)(0x597C6442)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --C99-I.\RTE\_Electronic_Cigarette_Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F072xB -DUSE_HAL_DRIVER -DSTM32F072xB-o electronic_cigarette_demo\message.o --omf_browse electronic_cigarette_demo\message.crf --depend electronic_cigarette_demo\message.d)
+I (..\Src\message.h)(0x5953650C)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x59A9373D)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f072xb.h)(0x59A9373D)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x59A9373F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x59A9373D)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x59A93740)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59FC0ADF)
+I (../Inc/main.h)(0x59FD5CD3)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x59A93740)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x59A93740)
+F (..\Src\SysTickTaskManager.c)(0x5B068EFD)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --C99-I.\RTE\_Electronic_Cigarette_Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F072xB -DUSE_HAL_DRIVER -DSTM32F072xB-o electronic_cigarette_demo\systicktaskmanager.o --omf_browse electronic_cigarette_demo\systicktaskmanager.crf --depend electronic_cigarette_demo\systicktaskmanager.d)
+I (..\Src\SysTickTaskManager.h)(0x597C68B6)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x59A9373D)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f072xb.h)(0x59A9373D)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x59A9373F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x59A9373D)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x59A93740)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59FC0ADF)
+I (../Inc/main.h)(0x59FD5CD3)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x59A93740)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x59A93740)
+I (..\Src\UartServer.h)(0x59F8391C)
+I (..\Src\message.h)(0x5953650C)
+I (..\Src\PowerCtr.h)(0x5A0AA355)
+I (..\Src\Keyboard.h)(0x5A09329C)
+I (..\Src\User.h)(0x5A001A21)
+I (..\Src\task_protocol.h)(0x5B068C3A)
+F (..\Src\lcd.c)(0x5A02C27B)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --C99-I.\RTE\_Electronic_Cigarette_Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F072xB -DUSE_HAL_DRIVER -DSTM32F072xB-o electronic_cigarette_demo\lcd.o --omf_browse electronic_cigarette_demo\lcd.crf --depend electronic_cigarette_demo\lcd.d)
+I (..\Src\lcd.h)(0x59E8759E)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x59A9373D)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f072xb.h)(0x59A9373D)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x59A9373F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x59A9373D)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x59A93740)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59FC0ADF)
+I (../Inc/main.h)(0x59FD5CD3)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x59A93740)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x59A93740)
+I (..\Src\lcdfont.h)(0x57048820)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+F (..\Src\MCP3421.c)(0x59F9AFFD)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --C99-I.\RTE\_Electronic_Cigarette_Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F072xB -DUSE_HAL_DRIVER -DSTM32F072xB-o electronic_cigarette_demo\mcp3421.o --omf_browse electronic_cigarette_demo\mcp3421.crf --depend electronic_cigarette_demo\mcp3421.d)
+I (..\Src\MCP3421.h)(0x59EB0564)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x59A93740)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59FC0ADF)
+I (../Inc/main.h)(0x59FD5CD3)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x59A93740)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x59A9373D)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f072xb.h)(0x59A9373D)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x59A9373F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x59A9373D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x59A93740)
+F (..\Src\PowerCtr.c)(0x5A0D5C04)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --C99-I.\RTE\_Electronic_Cigarette_Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F072xB -DUSE_HAL_DRIVER -DSTM32F072xB-o electronic_cigarette_demo\powerctr.o --omf_browse electronic_cigarette_demo\powerctr.crf --depend electronic_cigarette_demo\powerctr.d)
+I (..\Src\PowerCtr.h)(0x5A0AA355)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x59A93740)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59FC0ADF)
+I (../Inc/main.h)(0x59FD5CD3)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x59A93740)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x59A9373D)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f072xb.h)(0x59A9373D)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x59A9373F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x59A9373D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x59A93740)
+I (..\Src\MCP3421.h)(0x59EB0564)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (..\Src\SysTickTaskManager.h)(0x597C68B6)
+F (..\Src\User.c)(0x5A0A9C09)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --C99-I.\RTE\_Electronic_Cigarette_Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F072xB -DUSE_HAL_DRIVER -DSTM32F072xB-o electronic_cigarette_demo\user.o --omf_browse electronic_cigarette_demo\user.crf --depend electronic_cigarette_demo\user.d)
+I (..\Src\User.h)(0x5A001A21)
+I (../Inc/main.h)(0x59FD5CD3)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x59A93740)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59FC0ADF)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x59A93740)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x59A9373D)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f072xb.h)(0x59A9373D)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x59A9373F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x59A9373D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x59A93740)
+I (..\Src\lcd.h)(0x59E8759E)
+I (..\Src\MCP3421.h)(0x59EB0564)
+I (..\Src\PowerCtr.h)(0x5A0AA355)
+I (..\Src\Keyboard.h)(0x5A09329C)
+F (..\Src\Keyboard.c)(0x5A057E41)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --C99-I.\RTE\_Electronic_Cigarette_Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F072xB -DUSE_HAL_DRIVER -DSTM32F072xB-o electronic_cigarette_demo\keyboard.o --omf_browse electronic_cigarette_demo\keyboard.crf --depend electronic_cigarette_demo\keyboard.d)
+I (..\Src\Keyboard.h)(0x5A09329C)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x59A93740)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59FC0ADF)
+I (../Inc/main.h)(0x59FD5CD3)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x59A93740)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x59A9373D)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f072xb.h)(0x59A9373D)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x59A9373F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x59A9373D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x59A93740)
+F (..\Src\task_protocol.c)(0x5B07B8FD)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --C99-I.\RTE\_Electronic_Cigarette_Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F072xB -DUSE_HAL_DRIVER -DSTM32F072xB-o electronic_cigarette_demo\task_protocol.o --omf_browse electronic_cigarette_demo\task_protocol.crf --depend electronic_cigarette_demo\task_protocol.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\Src\task_protocol.h)(0x5B068C3A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x59A93740)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59FC0ADF)
+I (../Inc/main.h)(0x59FD5CD3)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x59A93740)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x59A9373D)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f072xb.h)(0x59A9373D)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x59A9373D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x59A93740)
+F (..\Src\UartServer.c)(0x5B0694E6)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --C99-I.\RTE\_Electronic_Cigarette_Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F072xB -DUSE_HAL_DRIVER -DSTM32F072xB-o electronic_cigarette_demo\uartserver.o --omf_browse electronic_cigarette_demo\uartserver.crf --depend electronic_cigarette_demo\uartserver.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x59A93740)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59FC0ADF)
+I (../Inc/main.h)(0x59FD5CD3)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x59A93740)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x59A9373D)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f072xb.h)(0x59A9373D)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x59A9373F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x59A9373D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x59A93740)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\Src\UartServer.h)(0x59F8391C)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c)(0x59A93740)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --C99-I.\RTE\_Electronic_Cigarette_Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F072xB -DUSE_HAL_DRIVER -DSTM32F072xB-o electronic_cigarette_demo\stm32f0xx_hal_pwr_ex.o --omf_browse electronic_cigarette_demo\stm32f0xx_hal_pwr_ex.crf --depend electronic_cigarette_demo\stm32f0xx_hal_pwr_ex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x59A93740)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59FC0ADF)
+I (../Inc/main.h)(0x59FD5CD3)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x59A93740)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x59A9373D)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f072xb.h)(0x59A9373D)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x59A9373F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x59A9373D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x59A93740)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c)(0x59A93740)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --C99-I.\RTE\_Electronic_Cigarette_Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F072xB -DUSE_HAL_DRIVER -DSTM32F072xB-o electronic_cigarette_demo\stm32f0xx_hal_i2c_ex.o --omf_browse electronic_cigarette_demo\stm32f0xx_hal_i2c_ex.crf --depend electronic_cigarette_demo\stm32f0xx_hal_i2c_ex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x59A93740)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59FC0ADF)
+I (../Inc/main.h)(0x59FD5CD3)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x59A93740)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x59A9373D)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f072xb.h)(0x59A9373D)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x59A9373F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x59A9373D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x59A93740)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c)(0x59A93740)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --C99-I.\RTE\_Electronic_Cigarette_Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F072xB -DUSE_HAL_DRIVER -DSTM32F072xB-o electronic_cigarette_demo\stm32f0xx_hal_tim.o --omf_browse electronic_cigarette_demo\stm32f0xx_hal_tim.crf --depend electronic_cigarette_demo\stm32f0xx_hal_tim.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x59A93740)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59FC0ADF)
+I (../Inc/main.h)(0x59FD5CD3)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x59A93740)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x59A9373D)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f072xb.h)(0x59A9373D)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x59A9373F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x59A9373D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x59A93740)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c)(0x59A93740)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --C99-I.\RTE\_Electronic_Cigarette_Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F072xB -DUSE_HAL_DRIVER -DSTM32F072xB-o electronic_cigarette_demo\stm32f0xx_hal.o --omf_browse electronic_cigarette_demo\stm32f0xx_hal.crf --depend electronic_cigarette_demo\stm32f0xx_hal.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x59A93740)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59FC0ADF)
+I (../Inc/main.h)(0x59FD5CD3)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x59A93740)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x59A9373D)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f072xb.h)(0x59A9373D)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x59A9373F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x59A9373D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x59A93740)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c)(0x59A93740)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --C99-I.\RTE\_Electronic_Cigarette_Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F072xB -DUSE_HAL_DRIVER -DSTM32F072xB-o electronic_cigarette_demo\stm32f0xx_hal_rcc.o --omf_browse electronic_cigarette_demo\stm32f0xx_hal_rcc.crf --depend electronic_cigarette_demo\stm32f0xx_hal_rcc.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x59A93740)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59FC0ADF)
+I (../Inc/main.h)(0x59FD5CD3)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x59A93740)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x59A9373D)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f072xb.h)(0x59A9373D)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x59A9373F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x59A9373D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x59A93740)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c)(0x59A93740)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --C99-I.\RTE\_Electronic_Cigarette_Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F072xB -DUSE_HAL_DRIVER -DSTM32F072xB-o electronic_cigarette_demo\stm32f0xx_hal_cortex.o --omf_browse electronic_cigarette_demo\stm32f0xx_hal_cortex.crf --depend electronic_cigarette_demo\stm32f0xx_hal_cortex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x59A93740)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59FC0ADF)
+I (../Inc/main.h)(0x59FD5CD3)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x59A93740)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x59A9373D)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f072xb.h)(0x59A9373D)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x59A9373F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x59A9373D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x59A93740)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c)(0x59A93740)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --C99-I.\RTE\_Electronic_Cigarette_Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F072xB -DUSE_HAL_DRIVER -DSTM32F072xB-o electronic_cigarette_demo\stm32f0xx_hal_i2c.o --omf_browse electronic_cigarette_demo\stm32f0xx_hal_i2c.crf --depend electronic_cigarette_demo\stm32f0xx_hal_i2c.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x59A93740)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59FC0ADF)
+I (../Inc/main.h)(0x59FD5CD3)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x59A93740)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x59A9373D)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f072xb.h)(0x59A9373D)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x59A9373F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x59A9373D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x59A93740)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c)(0x59A93740)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --C99-I.\RTE\_Electronic_Cigarette_Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F072xB -DUSE_HAL_DRIVER -DSTM32F072xB-o electronic_cigarette_demo\stm32f0xx_hal_tim_ex.o --omf_browse electronic_cigarette_demo\stm32f0xx_hal_tim_ex.crf --depend electronic_cigarette_demo\stm32f0xx_hal_tim_ex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x59A93740)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59FC0ADF)
+I (../Inc/main.h)(0x59FD5CD3)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x59A93740)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x59A9373D)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f072xb.h)(0x59A9373D)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x59A9373F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x59A9373D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x59A93740)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c)(0x59A93740)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --C99-I.\RTE\_Electronic_Cigarette_Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F072xB -DUSE_HAL_DRIVER -DSTM32F072xB-o electronic_cigarette_demo\stm32f0xx_hal_dma.o --omf_browse electronic_cigarette_demo\stm32f0xx_hal_dma.crf --depend electronic_cigarette_demo\stm32f0xx_hal_dma.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x59A93740)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59FC0ADF)
+I (../Inc/main.h)(0x59FD5CD3)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x59A93740)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x59A9373D)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f072xb.h)(0x59A9373D)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x59A9373F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x59A9373D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x59A93740)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c)(0x59A93740)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --C99-I.\RTE\_Electronic_Cigarette_Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F072xB -DUSE_HAL_DRIVER -DSTM32F072xB-o electronic_cigarette_demo\stm32f0xx_hal_flash.o --omf_browse electronic_cigarette_demo\stm32f0xx_hal_flash.crf --depend electronic_cigarette_demo\stm32f0xx_hal_flash.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x59A93740)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59FC0ADF)
+I (../Inc/main.h)(0x59FD5CD3)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x59A93740)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x59A9373D)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f072xb.h)(0x59A9373D)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x59A9373F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x59A9373D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x59A93740)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c)(0x59A93740)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --C99-I.\RTE\_Electronic_Cigarette_Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F072xB -DUSE_HAL_DRIVER -DSTM32F072xB-o electronic_cigarette_demo\stm32f0xx_hal_pwr.o --omf_browse electronic_cigarette_demo\stm32f0xx_hal_pwr.crf --depend electronic_cigarette_demo\stm32f0xx_hal_pwr.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x59A93740)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59FC0ADF)
+I (../Inc/main.h)(0x59FD5CD3)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x59A93740)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x59A9373D)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f072xb.h)(0x59A9373D)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x59A9373F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x59A9373D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x59A93740)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c)(0x59A93740)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --C99-I.\RTE\_Electronic_Cigarette_Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F072xB -DUSE_HAL_DRIVER -DSTM32F072xB-o electronic_cigarette_demo\stm32f0xx_hal_flash_ex.o --omf_browse electronic_cigarette_demo\stm32f0xx_hal_flash_ex.crf --depend electronic_cigarette_demo\stm32f0xx_hal_flash_ex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x59A93740)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59FC0ADF)
+I (../Inc/main.h)(0x59FD5CD3)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x59A93740)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x59A9373D)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f072xb.h)(0x59A9373D)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x59A9373F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x59A9373D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x59A93740)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c)(0x59A93740)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --C99-I.\RTE\_Electronic_Cigarette_Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F072xB -DUSE_HAL_DRIVER -DSTM32F072xB-o electronic_cigarette_demo\stm32f0xx_hal_rcc_ex.o --omf_browse electronic_cigarette_demo\stm32f0xx_hal_rcc_ex.crf --depend electronic_cigarette_demo\stm32f0xx_hal_rcc_ex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x59A93740)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59FC0ADF)
+I (../Inc/main.h)(0x59FD5CD3)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x59A93740)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x59A9373D)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f072xb.h)(0x59A9373D)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x59A9373F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x59A9373D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x59A93740)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c)(0x59A93740)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --C99-I.\RTE\_Electronic_Cigarette_Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F072xB -DUSE_HAL_DRIVER -DSTM32F072xB-o electronic_cigarette_demo\stm32f0xx_hal_gpio.o --omf_browse electronic_cigarette_demo\stm32f0xx_hal_gpio.crf --depend electronic_cigarette_demo\stm32f0xx_hal_gpio.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x59A93740)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59FC0ADF)
+I (../Inc/main.h)(0x59FD5CD3)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x59A93740)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x59A9373D)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f072xb.h)(0x59A9373D)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x59A9373F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x59A9373D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x59A93740)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c)(0x59A93740)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --C99-I.\RTE\_Electronic_Cigarette_Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F072xB -DUSE_HAL_DRIVER -DSTM32F072xB-o electronic_cigarette_demo\stm32f0xx_hal_adc.o --omf_browse electronic_cigarette_demo\stm32f0xx_hal_adc.crf --depend electronic_cigarette_demo\stm32f0xx_hal_adc.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x59A93740)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59FC0ADF)
+I (../Inc/main.h)(0x59FD5CD3)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x59A93740)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x59A9373D)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f072xb.h)(0x59A9373D)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x59A9373F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x59A9373D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x59A93740)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c)(0x59A93740)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --C99-I.\RTE\_Electronic_Cigarette_Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F072xB -DUSE_HAL_DRIVER -DSTM32F072xB-o electronic_cigarette_demo\stm32f0xx_hal_uart_ex.o --omf_browse electronic_cigarette_demo\stm32f0xx_hal_uart_ex.crf --depend electronic_cigarette_demo\stm32f0xx_hal_uart_ex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x59A93740)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59FC0ADF)
+I (../Inc/main.h)(0x59FD5CD3)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x59A93740)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x59A9373D)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f072xb.h)(0x59A9373D)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x59A9373F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x59A9373D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x59A93740)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c)(0x59FC1790)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --C99-I.\RTE\_Electronic_Cigarette_Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F072xB -DUSE_HAL_DRIVER -DSTM32F072xB-o electronic_cigarette_demo\stm32f0xx_hal_adc_ex.o --omf_browse electronic_cigarette_demo\stm32f0xx_hal_adc_ex.crf --depend electronic_cigarette_demo\stm32f0xx_hal_adc_ex.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x59A93740)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59FC0ADF)
+I (../Inc/main.h)(0x59FD5CD3)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x59A93740)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x59A9373D)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f072xb.h)(0x59A9373D)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x59A9373F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x59A9373D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x59A93740)
+F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c)(0x59A93740)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc -I ../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I ../Drivers/CMSIS/Include --C99-I.\RTE\_Electronic_Cigarette_Demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F072xB -DUSE_HAL_DRIVER -DSTM32F072xB-o electronic_cigarette_demo\stm32f0xx_hal_uart.o --omf_browse electronic_cigarette_demo\stm32f0xx_hal_uart.crf --depend electronic_cigarette_demo\stm32f0xx_hal_uart.d)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x59A93740)
+I (../Inc/stm32f0xx_hal_conf.h)(0x59FC0ADF)
+I (../Inc/main.h)(0x59FD5CD3)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x59A93740)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x59A9373D)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f072xb.h)(0x59A9373D)
+I (../Drivers/CMSIS/Include/core_cm0.h)(0x59A9373F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x59A9373F)
+I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x59A9373D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_cortex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_adc_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_flash_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h)(0x59A93740)
+I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart_ex.h)(0x59A93740)

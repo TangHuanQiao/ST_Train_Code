@@ -69,8 +69,8 @@ Purpose     : Display controller initialization
 //
 // Define the available number of bytes available for the GUI
 //
-#define GUI_NUMBYTES  (1024) *  512   // x KByte
-
+//#define GUI_NUMBYTES  (1024) *  512   // x KByte
+#define GUI_NUMBYTES  (1024) *  100   // x KByte
 /*********************************************************************
 *
 *       Static data
@@ -85,7 +85,8 @@ Purpose     : Display controller initialization
  #pragma location=0x68000000
  static __no_init U32 extMem[GUI_NUMBYTES / 4];
 #elif defined (__CC_ARM)
- static U32 extMem[GUI_NUMBYTES / 4] __attribute__((at(0x68000000)));
+ //static U32 extMem[GUI_NUMBYTES / 4] __attribute__((at(0x68000000)));
+ static U32 extMem[GUI_NUMBYTES / 4];
 #elif defined (__GNUC__)
  static U32 extMem[GUI_NUMBYTES / 4] __attribute__((section(".ExtRAMData")));
 #endif   

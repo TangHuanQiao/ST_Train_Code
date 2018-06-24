@@ -41,6 +41,7 @@ red_stm32f407\gui_x_freertos.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ha
 red_stm32f407\gui_x_freertos.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h
 red_stm32f407\gui_x_freertos.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 red_stm32f407\gui_x_freertos.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+red_stm32f407\gui_x_freertos.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h
 red_stm32f407\gui_x_freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 red_stm32f407\gui_x_freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
 red_stm32f407\gui_x_freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h

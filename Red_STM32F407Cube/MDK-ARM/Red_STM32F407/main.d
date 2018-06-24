@@ -31,6 +31,7 @@ red_stm32f407\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h
 red_stm32f407\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h
 red_stm32f407\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 red_stm32f407\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+red_stm32f407\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h
 red_stm32f407\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
 red_stm32f407\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
 red_stm32f407\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h

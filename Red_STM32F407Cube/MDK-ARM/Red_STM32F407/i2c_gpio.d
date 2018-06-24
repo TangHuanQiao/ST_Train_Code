@@ -30,5 +30,6 @@ red_stm32f407\i2c_gpio.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram
 red_stm32f407\i2c_gpio.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h
 red_stm32f407\i2c_gpio.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 red_stm32f407\i2c_gpio.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+red_stm32f407\i2c_gpio.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h
 red_stm32f407\i2c_gpio.o: ..\ExternalDrive\i2c_gpio.h
 red_stm32f407\i2c_gpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h

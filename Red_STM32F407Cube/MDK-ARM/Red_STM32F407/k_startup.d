@@ -31,6 +31,7 @@ red_stm32f407\k_startup.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sra
 red_stm32f407\k_startup.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h
 red_stm32f407\k_startup.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 red_stm32f407\k_startup.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+red_stm32f407\k_startup.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h
 red_stm32f407\k_startup.o: ..\Middlewares\Third_Party\STemWinLibrary532\inc\dialog.h
 red_stm32f407\k_startup.o: ..\Middlewares\Third_Party\STemWinLibrary532\inc\WM.h
 red_stm32f407\k_startup.o: ..\Middlewares\Third_Party\STemWinLibrary532\inc\GUI_ConfDefaults.h

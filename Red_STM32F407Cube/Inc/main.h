@@ -59,6 +59,9 @@
 
 /* Private define ------------------------------------------------------------*/
 
+#define TCS_Pin GPIO_PIN_15
+#define TCS_GPIO_Port GPIOG
+
 /* ########################## Assert Selection ############################## */
 /**
   * @brief Uncomment the line below to expanse the "assert_param" macro in the 

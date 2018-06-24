@@ -43,6 +43,7 @@ red_stm32f407\lcdconf_stm3240g_eval.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32
 red_stm32f407\lcdconf_stm3240g_eval.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h
 red_stm32f407\lcdconf_stm3240g_eval.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 red_stm32f407\lcdconf_stm3240g_eval.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+red_stm32f407\lcdconf_stm3240g_eval.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h
 red_stm32f407\lcdconf_stm3240g_eval.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 red_stm32f407\lcdconf_stm3240g_eval.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
 red_stm32f407\lcdconf_stm3240g_eval.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h

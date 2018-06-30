@@ -55,6 +55,16 @@ static void _cbDialog(WM_MESSAGE * pMsg) {
 		ICONVIEW_AddBitmapItem(hItem, &bm06, "NoteBook");
 		ICONVIEW_AddBitmapItem(hItem, &bm07, "JTV");
 		ICONVIEW_AddBitmapItem(hItem, &bm08, "Dollar");
+		
+		ICONVIEW_AddBitmapItem(hItem, &bm01, "neqee");//添加图标项
+		ICONVIEW_AddBitmapItem(hItem, &bm02, "SOS");
+		ICONVIEW_AddBitmapItem(hItem, &bm03, "Phone");
+		ICONVIEW_AddBitmapItem(hItem, &bm04, "Camera");
+		ICONVIEW_AddBitmapItem(hItem, &bm05, "Email");
+		ICONVIEW_AddBitmapItem(hItem, &bm06, "NoteBook");
+		ICONVIEW_AddBitmapItem(hItem, &bm07, "JTV");
+		ICONVIEW_AddBitmapItem(hItem, &bm08, "Dollar");
+		
 		//ICONVIEW_AddBitmapItem(hItem, &bm09, "Jobbet");
 		break;
 	case WM_NOTIFY_PARENT://操作触发消息处理(操作屏幕程序会跑到这里),比如点击按键、点击编辑框(任何的操作)等等......

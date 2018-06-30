@@ -66,7 +66,7 @@ SPI_HandleTypeDef hspi2;
 SRAM_HandleTypeDef hsram3;
 SRAM_HandleTypeDef hsram4;
 
-osThreadId defaultTaskHandle;
+osThreadId TouchUpdateTaskHandle;
 
 /* USER CODE BEGIN PV */
 /* Private variables ---------------------------------------------------------*/
@@ -80,12 +80,12 @@ static void MX_GPIO_Init(void);
 static void MX_FSMC_Init(void);
 static void MX_CRC_Init(void);
 static void MX_SPI2_Init(void);
-void StartDefaultTask(void const * argument);
+void StartTouchUpdateTask(void const * argument);
 
 /* USER CODE BEGIN PFP */
 /* Private function prototypes -----------------------------------------------*/
 static void GUIThread(void const * argument);
-static void TimerCallback(void const *n);
+
 
 
 /* USER CODE END PFP */
@@ -102,7 +102,7 @@ static void TimerCallback(void const *n);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-  osTimerId lcd_timer;
+
 
   /* USER CODE END 1 */
 
@@ -137,12 +137,6 @@ int main(void)
   osThreadDef(GUI_Thread, GUIThread, osPriorityHigh, 0, 1024);
   osThreadCreate (osThread(GUI_Thread), NULL); 
 
-    /* Create Touch screen Timer */
-  osTimerDef(TS_Timer, TimerCallback);
-  lcd_timer =  osTimerCreate(osTimer(TS_Timer), osTimerPeriodic, (void *)0);
-
-  /* Start the TS Timer */
-  osTimerStart(lcd_timer, 40);
 
   /* USER CODE END 2 */
 
@@ -163,9 +157,9 @@ int main(void)
   /* USER CODE END RTOS_TIMERS */
 
   /* Create the thread(s) */
-  /* definition and creation of defaultTask */
-  osThreadDef(defaultTask, StartDefaultTask, osPriorityNormal, 0, 128);
-  defaultTaskHandle = osThreadCreate(osThread(defaultTask), NULL);
+  /* definition and creation of TouchUpdateTask */
+  osThreadDef(TouchUpdateTask, StartTouchUpdateTask, osPriorityHigh, 0, 128);
+  TouchUpdateTaskHandle = osThreadCreate(osThread(TouchUpdateTask), NULL);
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
@@ -416,16 +410,13 @@ static void GUIThread(void const * argument)
   }
 }
 
-static void TimerCallback(void const *n)
-{  
-//  k_TouchUpdate();
-}
+
 
 
 /* USER CODE END 4 */
 
-/* StartDefaultTask function */
-void StartDefaultTask(void const * argument)
+/* StartTouchUpdateTask function */
+void StartTouchUpdateTask(void const * argument)
 {
 
   /* USER CODE BEGIN 5 */

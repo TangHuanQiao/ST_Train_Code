@@ -33,3 +33,10 @@ red_stm32f407\k_bsp.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h
 red_stm32f407\k_bsp.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 red_stm32f407\k_bsp.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
 red_stm32f407\k_bsp.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h
+red_stm32f407\k_bsp.o: ..\Middlewares\Third_Party\STemWinLibrary532\inc\GUI.h
+red_stm32f407\k_bsp.o: ..\Middlewares\Third_Party\STemWinLibrary532\inc\GUI_ConfDefaults.h
+red_stm32f407\k_bsp.o: ..\Middlewares\Third_Party\STemWinLibrary532\Config\GUIConf.h
+red_stm32f407\k_bsp.o: ..\Middlewares\Third_Party\STemWinLibrary532\inc\GUI_Type.h
+red_stm32f407\k_bsp.o: ..\Middlewares\Third_Party\STemWinLibrary532\inc\LCD.h
+red_stm32f407\k_bsp.o: ..\Middlewares\Third_Party\STemWinLibrary532\inc\Global.h
+red_stm32f407\k_bsp.o: ..\Middlewares\Third_Party\STemWinLibrary532\inc\GUI_Version.h

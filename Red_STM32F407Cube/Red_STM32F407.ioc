@@ -1,6 +1,7 @@
 #MicroXplorer Configuration settings - do not modify
-FREERTOS.IPParameters=Tasks01
-FREERTOS.Tasks01=defaultTask,0,128,StartDefaultTask,Default,NULL
+FREERTOS.FootprintOK=true
+FREERTOS.IPParameters=Tasks01,FootprintOK
+FREERTOS.Tasks01=TouchUpdateTask,2,128,StartTouchUpdateTask,Default,NULL,Dynamic,NULL,NULL
 FSMC.AddressSetupTime3=3
 FSMC.AddressSetupTime4=5
 FSMC.BusTurnAroundDuration3=1

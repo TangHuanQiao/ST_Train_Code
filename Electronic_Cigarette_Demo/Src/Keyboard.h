@@ -5,6 +5,17 @@
 #include "stm32f0xx_hal.h"
 
 
+ #if  defined ( __GNUC__ )
+  #ifndef __weak
+    #define __weak   __attribute__((weak))
+  #endif /* __weak */
+  #ifndef __packed
+    #define __packed __attribute__((__packed__))
+  #endif /* __packed */
+#endif /* __GNUC__ */
+
+
+
 #define UINT32 unsigned int
 
 
@@ -65,9 +76,7 @@ typedef struct _KEY_DEVICE_CLASS
 
 void keyScanTask(void);
 void KeyEventCallBack(UINT32 KeyVal);
-void KeyValConvert(UINT32 *pKeyVal)
-
-;
+void KeyValConvert(UINT32 *pKeyVal);
 
 
 #endif

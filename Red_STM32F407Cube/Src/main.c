@@ -55,6 +55,7 @@
 #include "GUI.h"
 #include "ili9481LCD.h"
 #include "k_bsp.h"
+#include "k_calibration.h"
 #include "k_module.h"   
 /* USER CODE END Includes */
 
@@ -129,11 +130,12 @@ int main(void)
   MX_SPI2_Init();
   /* USER CODE BEGIN 2 */
 
-	LCD_Init();
-	 /* Init the STemWin GUI Library */
-  GUI_Init();
+  k_BspInit();
   
-	  /* Create GUI task */
+  LCD_Init();
+  /* Init the STemWin GUI Library */
+  GUI_Init();
+  /* Create GUI task */
   osThreadDef(GUI_Thread, GUIThread, osPriorityHigh, 0, 1024);
   osThreadCreate (osThread(GUI_Thread), NULL); 
 
@@ -393,7 +395,10 @@ static void MX_FSMC_Init(void)
 static void GUIThread(void const * argument)
 {  
   /* Check for calibration */
-
+  if(k_CalibrationIsDone() == 0)
+  {
+    k_CalibrationInit();
+  }  
   
   /* Demo Startup */
   k_StartUp();   
@@ -423,7 +428,7 @@ void StartTouchUpdateTask(void const * argument)
   /* Infinite loop */
   for(;;)
   {
-		 k_TouchUpdate();
+	k_TouchUpdate();
     osDelay(40);
   }
   /* USER CODE END 5 */ 

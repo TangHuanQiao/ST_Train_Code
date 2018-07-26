@@ -57,6 +57,7 @@ red_stm32f407\main.o: ..\Middlewares\Third_Party\STemWinLibrary532\inc\GUI_Versi
 red_stm32f407\main.o: ..\ExternalDrive\lcd\ili9481LCD.h
 red_stm32f407\main.o: ..\ExternalDrive\lcd\fonts.h
 red_stm32f407\main.o: ../Src/k_bsp.h
+red_stm32f407\main.o: ../Src/k_calibration.h
 red_stm32f407\main.o: ../Src/k_module.h
 red_stm32f407\main.o: ..\Middlewares\Third_Party\STemWinLibrary532\inc\wm.h
 red_stm32f407\main.o: ..\Middlewares\Third_Party\STemWinLibrary532\inc\WM_GUI.h

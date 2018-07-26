@@ -40,3 +40,4 @@ red_stm32f407\k_bsp.o: ..\Middlewares\Third_Party\STemWinLibrary532\inc\GUI_Type
 red_stm32f407\k_bsp.o: ..\Middlewares\Third_Party\STemWinLibrary532\inc\LCD.h
 red_stm32f407\k_bsp.o: ..\Middlewares\Third_Party\STemWinLibrary532\inc\Global.h
 red_stm32f407\k_bsp.o: ..\Middlewares\Third_Party\STemWinLibrary532\inc\GUI_Version.h
+red_stm32f407\k_bsp.o: ..\Src\k_calibration.h

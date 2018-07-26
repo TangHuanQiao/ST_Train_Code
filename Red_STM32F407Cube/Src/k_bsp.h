@@ -57,6 +57,47 @@
 #include "main.h"
 
 /* Exported types ------------------------------------------------------------*/
+
+typedef struct
+{
+  uint16_t TouchDetected;
+  uint16_t x;
+  uint16_t y;
+  uint16_t z;
+}TS_StateTypeDef; 
+/**
+  * @}
+  */ 
+
+/** @defgroup STM324xG_EVAL_TS_Exported_Constants STM324xG EVAL TS Exported Constants
+  * @{
+  */
+#define TS_SWAP_NONE                    0x00
+#define TS_SWAP_X                       0x01
+#define TS_SWAP_Y                       0x02
+#define TS_SWAP_XY                      0x04
+
+typedef enum 
+{
+  TS_OK       = 0x00,
+  TS_ERROR    = 0x01,
+  TS_TIMEOUT  = 0x02
+}TS_StatusTypeDef;
+/**
+  * @}
+  */ 
+
+/** @defgroup STM324xG_EVAL_TS_Exported_Functions STM324xG EVAL TS Exported Functions
+  * @{
+  */
+uint8_t BSP_TS_Init(uint16_t xSize, uint16_t ySize);
+uint8_t BSP_TS_GetState(TS_StateTypeDef *TS_State);
+uint8_t BSP_TS_ITConfig(void);
+uint8_t BSP_TS_ITGetStatus(void);
+void    BSP_TS_ITClear(void);
+
+
+
 typedef struct {
   uint16_t X_RAW,Y_RAW,Z1_RAW;
 	

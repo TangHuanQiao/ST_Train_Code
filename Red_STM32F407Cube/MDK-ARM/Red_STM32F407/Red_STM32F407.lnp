@@ -8,6 +8,7 @@
 "red_stm32f407\freertos.o"
 "red_stm32f407\stm32f4xx_it.o"
 "red_stm32f407\main.o"
+"red_stm32f407\k_calibration.o"
 "red_stm32f407\ili9481lcd.o"
 "red_stm32f407\i2c_gpio.o"
 "red_stm32f407\gui_x_freertos.o"

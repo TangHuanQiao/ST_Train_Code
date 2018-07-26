@@ -1,6 +1,6 @@
 Dependencies for Project 'Red_STM32F407', Target 'Red_STM32F407': (DO NOT MODIFY !)
-F (..\Src\K_bsp.c)(0x5B56EF6C)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\ExternalDrive\lcd -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ..\Middlewares\Third_Party\STemWinLibrary532\Config -I ..\Middlewares\Third_Party\STemWinLibrary532\inc -I ..\GUI_Config -I ..\ExternalDrive --C99-I.\RTE\_Red_STM32F407-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx --C99-o red_stm32f407\k_bsp.o --omf_browse red_stm32f407\k_bsp.crf --depend red_stm32f407\k_bsp.d)
-I (..\Src\k_bsp.h)(0x5B56EFDB)
+F (..\Src\K_bsp.c)(0x5B599EB4)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\ExternalDrive\lcd -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ..\Middlewares\Third_Party\STemWinLibrary532\Config -I ..\Middlewares\Third_Party\STemWinLibrary532\inc -I ..\GUI_Config -I ..\ExternalDrive --C99-I.\RTE\_Red_STM32F407-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx --C99-o red_stm32f407\k_bsp.o --omf_browse red_stm32f407\k_bsp.crf --depend red_stm32f407\k_bsp.d)
+I (..\Src\k_bsp.h)(0x5B597A3E)
 I (../Inc/main.h)(0x5B56DB7C)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5B285938)
 I (../Inc/stm32f4xx_hal_conf.h)(0x5B56DB7C)
@@ -39,6 +39,7 @@ I (..\Middlewares\Third_Party\STemWinLibrary532\inc\GUI_Type.h)(0x5B28593B)
 I (..\Middlewares\Third_Party\STemWinLibrary532\inc\LCD.h)(0x5B28593B)
 I (..\Middlewares\Third_Party\STemWinLibrary532\inc\Global.h)(0x5B28593B)
 I (..\Middlewares\Third_Party\STemWinLibrary532\inc\GUI_Version.h)(0x5B28593B)
+I (..\Src\k_calibration.h)(0x5B5979AC)
 F (..\Src\k_mem.c)(0x5B28593B)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\ExternalDrive\lcd -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ..\Middlewares\Third_Party\STemWinLibrary532\Config -I ..\Middlewares\Third_Party\STemWinLibrary532\inc -I ..\GUI_Config -I ..\ExternalDrive --C99-I.\RTE\_Red_STM32F407-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx --C99-o red_stm32f407\k_mem.o --omf_browse red_stm32f407\k_mem.crf --depend red_stm32f407\k_mem.d)
 I (..\Src\k_mem.h)(0x5B28593B)
 I (../Inc/main.h)(0x5B56DB7C)
@@ -392,7 +393,7 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x5B28593A)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x5B28593A)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x5B28593A)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x5B28593A)
-F (../Src/main.c)(0x5B56DB7C)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\ExternalDrive\lcd -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ..\Middlewares\Third_Party\STemWinLibrary532\Config -I ..\Middlewares\Third_Party\STemWinLibrary532\inc -I ..\GUI_Config -I ..\ExternalDrive --C99-I.\RTE\_Red_STM32F407-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx --C99-o red_stm32f407\main.o --omf_browse red_stm32f407\main.crf --depend red_stm32f407\main.d)
+F (../Src/main.c)(0x5B59A32B)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\ExternalDrive\lcd -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ..\Middlewares\Third_Party\STemWinLibrary532\Config -I ..\Middlewares\Third_Party\STemWinLibrary532\inc -I ..\GUI_Config -I ..\ExternalDrive --C99-I.\RTE\_Red_STM32F407-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx --C99-o red_stm32f407\main.o --omf_browse red_stm32f407\main.crf --depend red_stm32f407\main.d)
 I (../Inc/main.h)(0x5B56DB7C)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5B285938)
 I (../Inc/stm32f4xx_hal_conf.h)(0x5B56DB7C)
@@ -448,7 +449,8 @@ I (..\Middlewares\Third_Party\STemWinLibrary532\inc\Global.h)(0x5B28593B)
 I (..\Middlewares\Third_Party\STemWinLibrary532\inc\GUI_Version.h)(0x5B28593B)
 I (..\ExternalDrive\lcd\ili9481LCD.h)(0x5B285938)
 I (..\ExternalDrive\lcd\fonts.h)(0x5B285938)
-I (../Src/k_bsp.h)(0x5B56EFDB)
+I (../Src/k_bsp.h)(0x5B597A3E)
+I (../Src/k_calibration.h)(0x5B5979AC)
 I (../Src/k_module.h)(0x5B28593B)
 I (..\Middlewares\Third_Party\STemWinLibrary532\inc\wm.h)(0x5B28593B)
 I (..\Middlewares\Third_Party\STemWinLibrary532\inc\WM_GUI.h)(0x5B28593B)
@@ -485,6 +487,46 @@ I (..\Middlewares\Third_Party\STemWinLibrary532\inc\SPINBOX.h)(0x5B28593B)
 I (..\Middlewares\Third_Party\STemWinLibrary532\inc\TEXT.h)(0x5B28593B)
 I (..\Middlewares\Third_Party\STemWinLibrary532\inc\TREEVIEW.h)(0x5B28593B)
 I (..\Middlewares\Third_Party\STemWinLibrary532\inc\KNOB.h)(0x5B28593B)
+F (..\Src\k_calibration.c)(0x5B59A246)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\ExternalDrive\lcd -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ..\Middlewares\Third_Party\STemWinLibrary532\Config -I ..\Middlewares\Third_Party\STemWinLibrary532\inc -I ..\GUI_Config -I ..\ExternalDrive --C99-I.\RTE\_Red_STM32F407-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx --C99-o red_stm32f407\k_calibration.o --omf_browse red_stm32f407\k_calibration.crf --depend red_stm32f407\k_calibration.d)
+I (..\Src\k_calibration.h)(0x5B5979AC)
+I (../Inc/main.h)(0x5B56DB7C)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5B285938)
+I (../Inc/stm32f4xx_hal_conf.h)(0x5B56DB7C)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5B285938)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5B285938)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5B285937)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x5B285937)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5B285938)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (../Drivers/CMSIS/Include/core_cmInstr.h)(0x5B285938)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5B285938)
+I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5B285938)
+I (../Drivers/CMSIS/Include/core_cmSimd.h)(0x5B285938)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x5B285937)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5B285938)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x5B285938)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x5B285938)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x5B285938)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x5B285938)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x5B285938)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x5B285938)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_crc.h)(0x5B285938)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x5B285938)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5B285938)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5B285938)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h)(0x5B285938)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h)(0x5B285938)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5B285938)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5B285938)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h)(0x5B285938)
+I (..\Middlewares\Third_Party\STemWinLibrary532\inc\GUI.h)(0x5B28593B)
+I (..\Middlewares\Third_Party\STemWinLibrary532\inc\GUI_ConfDefaults.h)(0x5B28593B)
+I (..\Middlewares\Third_Party\STemWinLibrary532\Config\GUIConf.h)(0x5B28593A)
+I (..\Middlewares\Third_Party\STemWinLibrary532\inc\GUI_Type.h)(0x5B28593B)
+I (..\Middlewares\Third_Party\STemWinLibrary532\inc\LCD.h)(0x5B28593B)
+I (..\Middlewares\Third_Party\STemWinLibrary532\inc\Global.h)(0x5B28593B)
+I (..\Middlewares\Third_Party\STemWinLibrary532\inc\GUI_Version.h)(0x5B28593B)
 F (..\ExternalDrive\lcd\ili9481LCD.c)(0x5B285938)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\ExternalDrive\lcd -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ..\Middlewares\Third_Party\STemWinLibrary532\Config -I ..\Middlewares\Third_Party\STemWinLibrary532\inc -I ..\GUI_Config -I ..\ExternalDrive --C99-I.\RTE\_Red_STM32F407-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F407xx -DUSE_HAL_DRIVER -DSTM32F407xx --C99-o red_stm32f407\ili9481lcd.o --omf_browse red_stm32f407\ili9481lcd.crf --depend red_stm32f407\ili9481lcd.d)
 I (..\ExternalDrive\lcd\ili9481LCD.h)(0x5B285938)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5B285938)

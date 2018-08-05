@@ -136,7 +136,7 @@ int main(void)
   /* Init the STemWin GUI Library */
   GUI_Init();
   /* Create GUI task */
-  osThreadDef(GUI_Thread, GUIThread, osPriorityHigh, 0, 1024);
+  osThreadDef(GUI_Thread, GUIThread, osPriorityAboveNormal, 0, 1024);
   osThreadCreate (osThread(GUI_Thread), NULL); 
 
 
@@ -397,6 +397,7 @@ static void GUIThread(void const * argument)
   /* Check for calibration */
   if(k_CalibrationIsDone() == 0)
   {
+		 osDelay(20);
     k_CalibrationInit();
   }  
   

@@ -14,7 +14,7 @@ uint8_t BSP_TS_Init(uint16_t xSize, uint16_t ySize)
     /* Initialize x and y positions boundaries */
     ts_x_boundary  = xSize;
     ts_y_boundary  = ySize;
-    ts_orientation = TS_SWAP_XY;
+    ts_orientation = TS_SWAP_NONE;
     ret = TS_OK;
   
   
@@ -32,13 +32,15 @@ uint8_t BSP_TS_Init(uint16_t xSize, uint16_t ySize)
   * @param  TS_State: Pointer to touch screen current state structure
   * @retval TS_OK if all initializations are OK. Other value if error.
   */
+
 uint8_t BSP_TS_GetState(TS_StateTypeDef *TS_State)
 {
 	static uint32_t _x = 0, _y = 0;
 	uint16_t xDiff, yDiff , x , y;
 	uint16_t swap;
+	uint8_t  readValue[2]={0};
+	
 
-	uint8_t  readValue[2]={0};
 	uint8_t Xcmd=0xD0,Ycmd=0x90,Z1cmd=0xB0;
 	
 	HAL_GPIO_WritePin(TCS_GPIO_Port,TCS_Pin,GPIO_PIN_RESET);
@@ -56,6 +58,10 @@ uint8_t BSP_TS_GetState(TS_StateTypeDef *TS_State)
 	HAL_SPI_Receive(&hspi2,readValue,2,0xffff);
 	HAL_GPIO_WritePin(TCS_GPIO_Port,TCS_Pin,GPIO_PIN_SET);
 
+	y=readValue[0];
+	y<<=8;
+	y|=readValue[1];
+	y>>=3;
 		
 	HAL_GPIO_WritePin(TCS_GPIO_Port,TCS_Pin,GPIO_PIN_RESET);
 	HAL_SPI_Transmit(&hspi2,&Z1cmd,1,0xffff);
@@ -67,7 +73,7 @@ uint8_t BSP_TS_GetState(TS_StateTypeDef *TS_State)
 	TS_State->z|=readValue[1];
 	TS_State->z>>=3;	
 
-	if(TS_State->z>500&&TS_State->z<2000)
+	if(TS_State->z>80&&TS_State->z<2000)
 		TS_State->TouchDetected = 1;
 	else
 		TS_State->TouchDetected = 0;
@@ -133,13 +139,13 @@ void k_BspInit(void)
 
 }
 
-
-
+GUI_PID_STATE TS_State;
+  __IO TS_StateTypeDef  ts;
 void k_TouchUpdate(void)
 {
-  GUI_PID_STATE TS_State;
+  
   static TS_StateTypeDef prev_state;
-  __IO TS_StateTypeDef  ts;
+//  __IO TS_StateTypeDef  ts;
   uint16_t xDiff, yDiff;  
   
   BSP_TS_GetState((TS_StateTypeDef *)&ts);

@@ -14,7 +14,7 @@ uint8_t BSP_TS_Init(uint16_t xSize, uint16_t ySize)
     /* Initialize x and y positions boundaries */
     ts_x_boundary  = xSize;
     ts_y_boundary  = ySize;
-    ts_orientation = TS_SWAP_NONE;
+    ts_orientation = TS_SWAP_XY|TS_SWAP_X|TS_SWAP_Y;
     ret = TS_OK;
   
   
@@ -83,12 +83,6 @@ uint8_t BSP_TS_GetState(TS_StateTypeDef *TS_State)
   
 	if(TS_State->TouchDetected)
 	{
-
-			
-		y=readValue[0];
-		y<<=8;
-		y|=readValue[1];
-		y>>=3;
 
 
 		if(ts_orientation & TS_SWAP_X)
